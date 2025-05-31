@@ -1,0 +1,20 @@
+.paizao{
+    background-color: #EFFAFF;
+    width: 1440px;
+    height: 430px;
+}
+
+.pai-texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+.titulo{ 
+    color: #FF8A00; 
+font-family: "major Mono Display", monospace; 
+font-weight: 400;
+font-size: 30px; }
+.paragrafo{
+
+
+}
