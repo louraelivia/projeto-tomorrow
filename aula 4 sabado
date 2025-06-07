@@ -1,117 +1,84 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Venda de Pizza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff0f5;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            color: #d2691e;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        .pizza {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .pizza img {
+            width: 200px;
+            border-radius: 10px;
+        }
+        .descricao {
+            max-width: 600px;
+            text-align: center;
+            margin-top: 15px;
+            font-size: 1.2em;
+        }
+        .preco {
+            margin-top: 10px;
+            font-size: 1.5em;
+            color: #d2691e;
+        }
+        .botao {
+            margin-top: 20px;
+        }
+        button {
+            background-color: #d2691e;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #a0522d;
+        }
+    </style>
 </head>
 <body>
-    <div class="homepage">
-        div clsass="titulos">
-        <h2 class="jv">j v</h2>
-        <p class="restaurante"> restaurante</p>
-
+    <header>
+        <h1>Venda de Pizza Deliciosa</h1>
+    </header>
+    <div class="pizza">
+        <img src="pizza.png" alt="Pizza de Queijo" />
+        <img src="Pizza 1.png" alt="Pizza de quatro queijos" />
+        <div class="descricao">
+            Experimente nossa pizza de queijo com massa crocante e muito sabor!
+        </div>
+        <div class="preco">R$ 40,00</div>
+        <div class="botao">
+            <button>Comprar Agora</button>
+        </div>
     </div>
-    <img src="pizzas.png.png" rel="pizas">
-
-</div>
-
-body{width:948.45px;
-height: 467.69px:
-top:20.97px;
-left: 40.55px:
-overflow: hidden;}
-
-
-
-
-.homepge{ width:989px:
-heigt: 467.69px;
-top 20.97px;
-overflow: hidden;
-}
-
-
-.homepage{
-
-    width: 989px;
-    height: 2577.73px;Add commentMore actions
-    left: 3px;
-
-}
-
-
-jv{
-    font-family: 'Limelight';Add commentMore actions
-    color: #FFAE00;
-}
-
-.Restaurante{
-    font-family: 'Mina';
-    flex-direction: row;
-    font-size: 12.37px;
-    letter-spacing: 17%;Add commentMore actions
-    line-height: 14.95px;
-    vertical-align: bottom;
-    font-size: 100;
-    }
-
-
-.titulos{
-    display: flex;
-    align-items: center;
-    gap: 5px;Add commentMore actions
-    margin-left: 35px;
-}
-
-
-text{
-    font-family: 'poppins';
-    align-items: center;Add commentMore actions
-    margin-right: 100px;
-    margin-left: 35px;
-
-}
-
-.botoes{
-    font-family: 'Poppins';
-    display: flex;
-    gap: 15px;Add commentMore actions
-    margin-left: 35px;
-    border-radius: 50px;
-}
-
-botao1{
-    background-color: #FFAE00;
-    border-radius: 100px;Add commentMore actions
-    border: none; 
-    padding: 10px 25px;
-}
-
-
-botao2{
-    background-color: #FFAE00;
-    border-radius: 100px;
-    border: none; Add commentMore actions
-    padding: 10px 25px;
-    gap: 15px;
-}
-
-img{
-    display: flex;
-    padding: 50px 1116px;
-    margin-top: -300px;
-    margin-right: 900px;Add commentMore actions
-    width: 412.37px;
-    height: 401.71px;
-      
-}
-
-
-
-    
 </body>
 </html>
 
 
+
+
+
+
+</body>
+</html>
